@@ -1,0 +1,74 @@
+﻿{ 
+    "development": {
+        "mysql": {
+            "master": {
+                "driver": "mysql",
+                "host": "localhost",
+                "port": "3306",
+                "user": "event",
+                "password": "",
+                "database": "zesroyal",
+                "connectionLimit": 2500,
+                "multipleStatements": true
+            }
+        }, 
+        "mongo": {
+            "master": {
+                "driver": "mongo",
+                "host": "192.168.189.128",
+                "port": "27017",
+                "user": "admin",
+                "password": "admin",
+                "database": "zesroyal",
+                "connectionLimit": 10000,
+                "multipleStatements": true
+            }
+        },
+        "memcache": {
+            "master": {
+                "driver": "memcached",
+                "host": "localhost",
+                "port": "11211",
+                "user": "",
+                "password": "",
+                "connectionLimit": 10000
+            }
+        }
+    },
+    "production": {
+        "mysql": {
+            "master": {
+                "driver": "mysql",
+                "host": "localhost",
+                "port": "3306",
+                "user": "event",
+                "password": "",
+                "database": "zesroyal",
+                "connectionLimit": 500,
+                "multipleStatements": true
+            }
+        }, 
+        "mongo": {
+            "master": {
+                "driver": "mongo",
+                "host": "192.168.189.128",
+                "port": "27017",
+                "user": "admin",
+                "password": "admin",
+                "database": "zesroyal",
+                "connectionLimit": 10000,
+                "multipleStatements": true
+            }
+        },
+        "memcache": {
+            "master": {
+                "driver": "memcached",
+                "host": "192.168.189.128",
+                "port": "11211",
+                "user": "",
+                "password": "",
+                "connectionLimit": 10000
+            }
+        }        
+    }
+}

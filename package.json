@@ -1,0 +1,27 @@
+{
+  "name": "master-server",
+  "version": "1.0.0",
+  "description": "API Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "master-server"
+  ],
+  "author": "hoanglm",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pm2": "^4.2.1"
+  }
+}
