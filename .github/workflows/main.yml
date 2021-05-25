@@ -41,7 +41,6 @@ jobs:
           echo test, and deploy your project.
       - name: Run ssh-agent in background
         run: |
-          eval "$(ssh-agent -s)"
           # Add SSH Key:
           echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
           ssh-add -l
