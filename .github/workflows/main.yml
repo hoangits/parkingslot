@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - name: Trigger Buildkite Pipeline
+      #- name: Trigger Buildkite Pipeline
       # You may pin to the exact commit or the version.
       # uses: buildkite/trigger-pipeline-action@d03b6f2760252274dc019e1298095c3b61baeaf8
-      - uses: buildkite/trigger-pipeline-action@v1.2.0
+      #- uses: buildkite/trigger-pipeline-action@v1.2.0
