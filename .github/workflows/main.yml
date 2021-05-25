@@ -42,7 +42,7 @@ jobs:
       - name: Run ssh-agent in background
         run: |
           # Add SSH Key:
-          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+          echo "$keypull" | tr -d '\r' | ssh-add - > /dev/null
           ssh-add -l
       #- name: Trigger Buildkite Pipeline
       # You may pin to the exact commit or the version.
